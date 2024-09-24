@@ -1,5 +1,4 @@
 function calcularMedia() {
-=
     let valor1 = +prompt("Digite o primeiro valor:");
     let valor2 = +prompt("Digite o segundo valor:");
     let valor3 = +prompt("Digite o terceiro valor:");
@@ -14,4 +13,3 @@ function calcularMedia() {
 
 let resultado = calcularMedia();
 
-console.log(A média dos três valores é: ${resultado});
