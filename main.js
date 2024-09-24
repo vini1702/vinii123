@@ -16,20 +16,20 @@
 
     <script>
         function calcularArea() {
-           
+            // Obter o valor do lado do quadrado a partir da entrada do usuário e convertê-lo para número
             const lado = parseFloat(document.getElementById("lado").value);
 
-            
+            // Validação: verificar se o valor é um número válido e maior que zero
             if (isNaN(lado) || lado <= 0) {
                 document.getElementById("resultado").innerText = "Por favor, insira um número válido maior que zero.";
                 return;
             }
 
-            
+            // Calcular a área do quadrado
             const area = lado * lado;
 
-            
-            document.getElementById("resultado").innerText = A área do quadrado é: ${area};
+            // Exibir o resultado na página
+            document.getElementById("resultado").innerText = A área do quadrado é: ${area.toFixed(2)};
         }
     </script>
 </body>
