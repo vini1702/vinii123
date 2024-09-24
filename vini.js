@@ -13,4 +13,4 @@ function calcularMedia() {
 
 let resultado = calcularMedia();
 
-document.write('A média dos tres valores é: ${resultado}')
+document.write('A média dos tres valores é: '${resultado})
